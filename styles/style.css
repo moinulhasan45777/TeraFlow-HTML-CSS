@@ -1,5 +1,3 @@
-/* 4E47FF */
-
 * {
   margin: 0;
   padding: 0;
@@ -314,6 +312,7 @@ textarea::placeholder {
 }
 
 input[type="submit"] {
+  height: auto;
   background-color: #4e47ff;
   color: #ffffff;
   font-weight: 700;
