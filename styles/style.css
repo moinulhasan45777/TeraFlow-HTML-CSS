@@ -105,7 +105,7 @@ main {
 }
 
 .action-info p {
-  color: #252432;
+  color: rgba(0, 0, 0, 50%);
   font-size: 24px;
   margin-bottom: 23px;
 }
@@ -154,4 +154,76 @@ main {
 .statistics p {
   font-size: 20px;
   color: rgba(0, 0, 0, 50%);
+}
+
+.feedbacks {
+  margin-bottom: 137px;
+}
+
+.feedbacks h2 {
+  font-size: 42px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.feedback-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.feedback-card {
+  background-color: #fff;
+  border-radius: 14px;
+  padding: 24px;
+}
+
+.rating {
+  margin-bottom: 24px;
+}
+.rating img {
+  margin-right: 4px;
+}
+
+.rating img:last-of-type {
+  margin-right: 0px;
+}
+
+.review {
+  margin-bottom: 24px;
+}
+
+.review h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.review p {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.reviewer-info {
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.reviewer-info img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviewer-info h5 {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  color: #757575;
+}
+
+.reviewer-info p {
+  color: #b3b3b3;
 }
