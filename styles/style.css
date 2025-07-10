@@ -21,6 +21,9 @@
 }
 
 /* General Styles */
+section {
+  margin: 0 150px;
+}
 
 /* Header Styles */
 header {
@@ -75,4 +78,48 @@ nav button {
   background-color: #4e47ff;
   border: none;
   border-radius: 10px;
+}
+
+/* Main Styles */
+main {
+  background-color: #f5f8ff;
+  padding-top: 116px;
+  padding-bottom: 14px;
+}
+
+.action {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 116px;
+}
+
+.action-info {
+  width: 517px;
+}
+
+.action-info h2 {
+  font-size: 42px;
+  font-weight: 700;
+  margin-bottom: 23px;
+}
+
+.action-info p {
+  color: #252432;
+  font-size: 24px;
+  margin-bottom: 23px;
+}
+
+.action-info button {
+  font-size: 16px;
+  font-weight: 700;
+  padding: 17px 40px;
+  color: #ffffff;
+  background-color: #4e47ff;
+  border: none;
+  border-radius: 10px;
+}
+
+.action img {
+  border-radius: 48px;
 }
