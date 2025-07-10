@@ -34,6 +34,11 @@ button {
   border: none;
   border-radius: 10px;
   cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #070647;
 }
 
 /* Header Styles */
@@ -61,13 +66,7 @@ nav span {
 }
 
 nav button {
-  font-size: 16px;
-  font-weight: 600;
-  padding: 17px 40px;
-  color: #ffffff;
-  background-color: #4e47ff;
-  border: none;
-  border-radius: 10px;
+  font-weight: 700;
 }
 
 .banner {
@@ -82,13 +81,7 @@ nav button {
 }
 
 .banner button {
-  font-size: 16px;
   font-weight: 700;
-  padding: 17px 40px;
-  color: #ffffff;
-  background-color: #4e47ff;
-  border: none;
-  border-radius: 10px;
 }
 
 /* Main Styles */
@@ -122,13 +115,7 @@ main {
 }
 
 .action-info button {
-  font-size: 16px;
   font-weight: 700;
-  padding: 17px 40px;
-  color: #ffffff;
-  background-color: #4e47ff;
-  border: none;
-  border-radius: 10px;
 }
 
 .action img {
